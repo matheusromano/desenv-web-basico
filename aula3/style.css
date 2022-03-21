@@ -1,0 +1,24 @@
+/* Este é meu arquivo folha de estilos CSS*/
+
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+    font-size: 5.0rem;
+    color: #326B8F;
+    background-color: #DBB279;
+    text-align: center;
+    /* aplica para todos lados */
+    padding: 30px;
+    margin: 30px;
+}
+
+.destaque {
+    font-size: 2.0rem;
+    color: #8F4754;
+    text-align: center;
+    /* aplica para todos lados */
+    padding: 15px;
+    text-align: left;
+}

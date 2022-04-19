@@ -157,6 +157,7 @@ footer{
     }
 }
 
+
 @media screen and (max-width: 768px){
     .caixa{
         width: 65%
@@ -232,12 +233,12 @@ footer{
         margin-top: 150px;
     }
 
-    .banner{
+    /* .banner{
         height: 200px;
     }
     section{
         margin-top: 500px;
-    }   
+    }    */
 }
 
 .cleatfix::before,

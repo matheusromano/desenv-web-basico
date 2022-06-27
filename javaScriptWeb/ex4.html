@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>If else</title>
+  
+</head>
+<body>
+  <script>
+    var media = 6
+    var faltas = 20
+    var nota1 = prompt("Digite a primeira nota do aluno: ")
+    var nota2 = prompt("Digite a segunda nota do aluno: ")
+    var mediaAluno = (parseFloat(nota1) + parseFloat(nota2)) / 2
+    var faltasAluno = prompt("Digite a quantidade de faltas: ")
+    if (mediaAluno >= media && faltasAluno <= faltas) {
+      document.write("<h1>Aprovado</h1>");
+    } else if(mediaAluno >= 1 && faltasAluno <= faltas) {
+      document.write("<h1>Exame final</h1>");
+    } else {
+      document.write("<h1>Reprovado</h1>");
+    }
+  </script>
+  
+</body>
+</html>
